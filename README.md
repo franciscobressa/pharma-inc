@@ -1,10 +1,25 @@
-# pharma-inc
+# Pharma Inc.
 
-## Project setup
-```
-npm install
-```
+Dashboard to facilitate the management of Pharma Inc customer information.
 
+## Tech Stack
+- [Vue 2](https://v2.vuejs.org/v2/guide/)
+- [Vue CLI](https://cli.vuejs.org/)
+- [Vuex](https://vuex.vuejs.org/)
+- [Vue Router](https://router.vuejs.org)
+- [BootstrapVue](https://bootstrap-vue.org/)
+- [Docker](https://www.docker.com/)
+- [Axios](https://github.com/axios/axios)
+- [NPM](https://www.npmjs.com/)
+
+## Features
+- Customers
+- Search by Fist and Last name
+- Pagination
+- Modal w/ more info
+- Customer share link
+
+## Project Setup
 ```
 docker build -t vue-app .
 ```
@@ -19,5 +34,4 @@ docker run -p 8080:8080 vue-app
 npm run test:unit
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This is a challenge to test Front-end knowledge by [Coodesh](https://coodesh.com/).
